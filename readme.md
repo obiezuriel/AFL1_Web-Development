@@ -6,7 +6,7 @@
     </a>
 </p>
 
-<p id="description">This is the Github repository for AFL 1 Web Development of Bryan Fernando Dinata & Obie Zuriel.</p>
+<p id="description">This is the Github repository for AFL 1 Web Development of Bryan Fernando Dinata (0706012410005) & Obie Zuriel (0706012410007).</p>
 
 <h2>🧐 Features</h2>
 
