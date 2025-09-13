@@ -56,6 +56,5 @@
         $officeId = $_POST['office_id'];
         assignEmployeeToOffice($employeeIndex, $officeId);
         header("Location: ../view/view_employee_office.php");
-        exit();
     }
 ?>
