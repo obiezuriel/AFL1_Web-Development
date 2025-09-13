@@ -37,7 +37,7 @@
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900"><?=$office->getTelepon()?></td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                             <!-- <a href="#" class="text-indigo-600 hover:text-indigo-900 mr-3">Edit</a> -->
-                            <a href="../controller/controller_member.php?deleteID=<?=$index?>" class="text-red-600 hover:text-red-900">Delete</a>
+                            <a href="../controller/controller_office.php?deleteID=<?=$index?>" class="text-red-600 hover:text-red-900">Delete</a>
                         </td>
                     </tr>
                     <?php

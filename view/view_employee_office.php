@@ -1,5 +1,5 @@
 <?php 
-    include ('../controller/controller_member.php');
+    include ('../controller/controller_employee.php');
     include ('../controller/controller_office.php');
 ?>
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
         <div class="max-w-xl mx-auto bg-white rounded-lg shadow-lg p-6 mb-8">
             <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Assign Employee to Office</h1>
 
-            <form action="../controller/controller_member.php" method="POST" class="space-y-4">
+            <form action="../controller/controller_employee.php" method="POST" class="space-y-4">
                 <div>
                     <label for="employee_index" class="block text-sm font-medium text-gray-700 mb-2">Select Employee</label>
                     <select id="employee_index" name="employee_index" required
