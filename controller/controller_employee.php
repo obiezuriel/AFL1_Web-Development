@@ -33,6 +33,15 @@
         }
     }
 
+    function getCurrentOffice($officeId){
+        foreach($_SESSION['officelist'] as $office){
+            if($office->getId() === $officeId){
+                return $office->getNama();
+            }
+        }
+        return "Unemployed";
+    }
+
     if(isset($_POST['button_registeremployee'])){
         createEmployee();
         header("Location: ../view/view_employee.php");

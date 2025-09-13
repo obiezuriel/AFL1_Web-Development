@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="min-h-screen bg-gray-100">
+<body class="min-h-screen flex justify-center items-center bg-zinc-300">
     <div class="container mx-auto p-6">
         <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6">
             <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Add New Office</h1>
@@ -40,12 +40,12 @@
 
                 <div class="flex gap-4 mt-6">
                     <button name="button_registeroffice" type="submit"
-                        class="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
+                        class="flex-1 bg-zinc-800 hover:bg-zinc-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
                         Add Office
                     </button>
 
                     <a href="view_office.php"
-                        class="flex-1 bg-gray-500 hover:bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 text-center">
+                        class="flex-1 bg-zinc-800 hover:bg-zinc-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 text-center">
                         Cancel
                     </a>
                 </div>

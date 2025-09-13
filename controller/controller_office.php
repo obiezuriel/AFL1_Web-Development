@@ -24,15 +24,6 @@ function getAllOffice()
 {
     return $_SESSION['officelist'];
 }
-function getOfficeById($officeId)
-{
-    foreach ($_SESSION['officelist'] as $office) {
-        if ($office->getId() === $officeId) {
-            return $office;
-        }
-    }
-    return null;
-}
 function deleteOffice($officeIndex)
 {
     unset($_SESSION['officelist'][$officeIndex]);
