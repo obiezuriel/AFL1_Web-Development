@@ -37,7 +37,7 @@
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900"><?=$employee->getUsia()?></td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                             <!-- <a href="#" class="text-indigo-600 hover:text-indigo-900 mr-3">Edit</a> -->
-                            <a href="../controller/controller_member.php?deleteID=<?=$index?>" class="text-red-600 hover:text-red-900" onclick="return confirm('Do you want to fire this employee?');">Delete</a>
+                            <a href="../controller/controller_employee.php?deleteID=<?=$index?>" class="text-red-600 hover:text-red-900" onclick="return confirm('Do you want to fire this employee?');">Delete</a>
                         </td>
                     </tr>
                     <?php
@@ -48,13 +48,13 @@
         </div>
         
         <div class="flex justify-center mt-6">
-            <a href="view_addemployee.php" class="bg-zinc-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
+            <a href="view_addemployee.php" class="bg-zinc-800 hover:bg-zinc-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
                 Add Employee
             </a>
         </div>
 
         <div class="flex justify-center mt-4">
-            <a href="../index.php" class="bg-zinc-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
+            <a href="../index.php" class="bg-zinc-800 hover:bg-zinc-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
                 Back to Home
             </a>
         </div>

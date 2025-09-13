@@ -34,12 +34,12 @@
 
                 <div class="flex gap-4 mt-6">
                     <button name="button_registeremployee" type="submit"
-                        class="flex-1 bg-zinc-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
+                        class="flex-1 bg-zinc-800 hover:bg-zinc-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
                         Add Employee
                     </button>
 
                     <a href="view_employee.php"
-                        class="flex-1 bg-zinc-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 text-center">
+                        class="flex flex-1 bg-zinc-800 hover:bg-zinc-500 text-white items-center justify-center font-semibold py-3 px-6 rounded-lg transition duration-200">
                         Cancel
                     </a>
                 </div>

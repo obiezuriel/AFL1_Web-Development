@@ -39,7 +39,7 @@
                 return $office->getNama();
             }
         }
-        return "unemployed";
+        return "Unemployed";
     }
 
     if(isset($_POST['button_registeremployee'])){
