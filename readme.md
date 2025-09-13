@@ -1,7 +1,9 @@
 <h1 align="center" id="title">AFL 1 Webdev - Employee Office - Bryan and Obie</h1>
 
 <p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ETRP_n17afA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/watch?v=ETRP_n17afA" target="_blank">
+        <img src="https://img.youtube.com/vi/ETRP_n17afA/0.jpg" alt="YouTube video thumbnail" width="560" height="315" />
+    </a>
 </p>
 
 <p id="description">This is the Github repository for AFL 1 Web Development of Bryan Fernando Dinata & Obie Zuriel.</p>
@@ -10,15 +12,8 @@
 
 Here're some of the project's best features:
 
-*   Home page
-*   About page
-*   Schedule page
-*   Rules page
-*   Dropdown
-*   Carousel
-*   Countdown
-*   Pop ups
-*   Etc
+*   CRUD Office 
+*   CRUD Employee
 
 <h2>🛠️ Installation Steps:</h2>
 
