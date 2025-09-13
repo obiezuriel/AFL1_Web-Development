@@ -5,7 +5,6 @@ class office{
     private $alamat;
     private $kota;
     private $telepon;
-    
     public function getId() {
         return $this->id;
     }
