@@ -12,6 +12,7 @@
 
     function createEmployee(){
         $employee = new employee();
+        $employee->setId(uniqid('employee_', true));
         $employee->setNama($_POST['nama']);
         $employee->setJabatan($_POST['jabatan']);
         $employee->setUsia($_POST['usia']);

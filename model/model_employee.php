@@ -1,9 +1,18 @@
 <?php
 class employee{
+    private $id;
     private $nama;
     private $jabatan;
     private $usia;
     private $office_id;
+
+    public function getId() {
+        return $this->id;
+    }
+    
+    public function setId($id) {
+        $this->id = $id;
+    }
 
     public function getNama() {
         return $this->nama;
